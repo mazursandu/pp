@@ -1,0 +1,3 @@
+echo "" > index.html
+for FILE in images/*; do echo "<img src=\"$FILE\">" >> index.html; done
+echo "<script src=\"format.js\"></script>" >> index.html
